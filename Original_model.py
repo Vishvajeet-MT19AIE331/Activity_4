@@ -12,9 +12,9 @@ X, y = iris.data, iris.target
 print(X.shape)
 # Define model parameters
 input_size = X.shape[1]
-hidden_size = 50
+hidden_size = 100
 num_classes = len(set(y))
-learning_rate = 0.1
+learning_rate = 0.0001
 batch_size = 32
 num_epochs = 10
 
